@@ -1,0 +1,20 @@
+.title-div h1{
+    font-family: Austral-Sans;
+    font-size: 40px;
+    line-height: 42px;
+    font-weight: 400;
+}
+
+@media (max-width: 600px) {
+    .title-div h1{
+        font-size: 28px;
+        text-align: center;
+    }
+}
+
+@media (max-width: 414px) {
+    .title-div h1{
+        font-size: 18px;
+    }
+}
+

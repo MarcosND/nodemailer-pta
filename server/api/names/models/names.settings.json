@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "collectionName": "names",
+  "info": {
+    "name": "Names"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "nome": {
+      "type": "string"
+    },
+    "email": {
+      "type": "email"
+    }
+  }
+}
